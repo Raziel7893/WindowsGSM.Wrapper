@@ -16,7 +16,7 @@ namespace WindowsGSM.Plugins
             name = "WindowsGSM.Wrapper", 
             author = "raziel7893",
             description = "WindowsGSM plugin to run any dedicated Server via bat file",
-            version = "1.0.0",
+            version = "1.0.1",
             url = "https://github.com/Raziel7893/WindowsGSM.Wrapper", // Github repository link (Best practice) TODO
             color = "#34FFeb" // Color Hex
         };
@@ -30,7 +30,7 @@ namespace WindowsGSM.Plugins
 
         // - Game server Fixed variables
         public string StartPath => "start.bat";
-        public string FullName = "Dedicated Server Wrapper"; // Game server FullName
+        public string FullName = "Wrapper"; // Game server FullName
         public bool AllowsEmbedConsole = true;  // Does this server support output redirect?
         public int PortIncrements = 0; // This tells WindowsGSM how many ports should skip after installation
 
