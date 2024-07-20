@@ -1,4 +1,4 @@
-# WindowsGSM.GroundBranch
+# WindowsGSM.Wrapper
 🧩WindowsGSM plugin that provides a possibility to run basically anything via WindowsGSM (even maintanace scripts)
 
 ## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
