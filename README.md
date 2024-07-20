@@ -3,10 +3,10 @@
 
 ## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
 
-### Notes
+### Notes and Usage
 - Windowsgsm will simply start "start.bat" in the root of serverfiles
   - Click Browse => Serverfiles if you don't know where that is
-- You need to either edit start.bat to start your server or replace it with the script shipped with your server
+- **You need to either edit start.bat to start your server or replace it with the script shipped with your server**
 - Kill Button does not work, as WindowsGSM will not have the correct ProcessId
 - Embedd console could work (if your server does not open an own console), passing commands via embedded cosole is worth a shot, but not sure there
 
