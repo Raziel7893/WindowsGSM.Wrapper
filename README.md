@@ -1,14 +1,23 @@
-# WindowsGSM.Wrapper
+# WindowsGSM.Wrapper (Dedicated Server Wrapper in WindowsGSM)
 🧩WindowsGSM plugin that provides a possibility to run basically anything via WindowsGSM (even maintanace scripts)
 
 ## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
 
 ### Notes and Usage
+- It is named Dedicated Server Wrapper in WindowsGSM
 - Windowsgsm will simply start "start.bat" in the root of serverfiles
   - Click Browse => Serverfiles if you don't know where that is
 - **You need to either edit start.bat to start your server or replace it with the script shipped with your server**
 - Kill Button does not work, as WindowsGSM will not have the correct ProcessId
 - Embedd console could work (if your server does not open an own console), passing commands via embedded cosole is worth a shot, but not sure there
+- You can use the passed commandline arguments if you want to manage ports and IP from WGSM (set in the Edit Config Window):
+  - First Arg is the IP
+  - second is the Port
+  - third is the query Port
+  - and from there its the Server Start Params
+- if you think using more fields would be usefull, feel free to open an issue and we can discuss
+- you can also overwrite update.bat to implement your own update script. Be aware that there is no output in wgsm. so either use a logfile or an special exit code in case of an error, that should be recognized
+
 
 ### WindowsGSM Installation: 
 1. Download  WindowsGSM https://windowsgsm.com/ 
