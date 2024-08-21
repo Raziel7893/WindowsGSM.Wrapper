@@ -1,10 +1,16 @@
-# WindowsGSM.Wrapper (Dedicated Server Wrapper in WindowsGSM)
+# WindowsGSM.Wrapper
 🧩WindowsGSM plugin that provides a possibility to run basically anything via WindowsGSM (even maintanace scripts)
 
 ## PLEASE ⭐STAR⭐ THE REPO IF YOU LIKE IT! THANKS!
 
+# Name changed in WGSM
+- Name inside WGSM changed from Dedicated Server Wrapper to just Wrapper!
+- It could be that your server disappears after update
+- Just go to WindowsGSM/servers/%ServerID/serverfiles and copy the stuff somewhere
+- recreate the Wrapper in WGSM
+- move you copied stuff inside
+
 ### Notes and Usage
-- It is named Dedicated Server Wrapper in WindowsGSM
 - Windowsgsm will simply start "start.bat" in the root of serverfiles
   - Click Browse => Serverfiles if you don't know where that is
 - **You need to either edit start.bat to start your server or replace it with the script shipped with your server**
